@@ -16,4 +16,6 @@ const start = async () => {
 
 start()
 
+app.get('/', (req, res) => res.json("Bot is Running"))
+
 app.listen(port, () => console.log("Listening On Port", port))
