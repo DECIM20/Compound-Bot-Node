@@ -1,0 +1,1 @@
+[1666351443098] {userAdd: "0x262ddb3660e16ef6683f674f5e45e1c2afe914f5", maxSuppliedToken: "cBAT", maxBorrowedToken: "cUSDC", debt: 250, health: 1.00},

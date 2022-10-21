@@ -1,0 +1,23 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.18.0"
+  },
+  "scripts": {
+    "check": "node test.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bignumber.js": "^9.0.1",
+    "dayjs": "^1.11.5",
+    "dotenv": "^16.0.1",
+    "web3": "^1.7.3",
+    "express": "^4.17.2"
+  }
+}

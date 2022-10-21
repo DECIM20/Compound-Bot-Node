@@ -1,0 +1,6 @@
+[core]
+autocrlf=false
+
+**/*.sh text eol=lf
+python/*.* text eol=lf
+python/* text eol=lf
