@@ -366,6 +366,8 @@ class Bot {
       //   (ethPrice / 10 ** 18).toFixed(2)
 
       // console.log("Total Gas Cost is", totalGasCost)
+      
+      console.log("Price Fetch Successfull")
 
       let i
       for (i = 1; i <= 10; i++) {
