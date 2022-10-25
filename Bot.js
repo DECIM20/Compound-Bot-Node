@@ -370,7 +370,7 @@ class Bot {
       console.log("Price Fetch Successfull")
 
       let i
-      for (i = 1; i <= 10; i++) {
+      for (i = 1; i <= 3; i++) {
         let url = await axios.post(
           "https://api.compound.finance/api/v2/account" /* ?max_health%5Bvalue%5D=1.0 */,
           {
