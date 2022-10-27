@@ -219,12 +219,17 @@ const getAllUserData = async () => {
                 debt: Number(max_borrowed_token.debt_in_usd).toFixed(0),
                 health: Number(a.health.value).toFixed(2),
               }
-
-              outputArray.push(obj)
+              
+              const exists = outputArray.findIndex(element => element.userAdd === userAddress) > -1
+              
+              if(!exists){
+                 outputArray.push(obj)
 
               //https://www.convertsimple.com/convert-javascript-array-to-csv/
 
               console.log("Wrote to file")
+              }
+
             }
           } else {
             console.log("No data Found")
